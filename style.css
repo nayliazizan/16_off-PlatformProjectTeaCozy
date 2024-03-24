@@ -1,0 +1,115 @@
+html {
+    background-color: black;
+    color: white;
+    font-family: Helvetica;
+}
+
+h2, h3, h4, h5, p, span {
+    text-align: center;
+}
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: black;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.logo {
+    display: inline-flex;
+    justify-content: flex-start;
+    height: 50px;
+    margin: 10px;
+}
+
+nav {
+    display: inline-flex;
+    justify-content: flex-end;
+    font-size: 22px;
+    margin-right: 20px;
+}
+
+#mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    background-repeat: no-repeat;
+    height: 700px;
+    margin: 0 auto;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1v5sods*_ga*MTMzNTYzMjY2NC4xNzAyMTg1MjA5*_ga_3LRZM6TM9L*MTcxMTI4ODI2OS4yNS4xLjE3MTEyODg0NDUuNjAuMC4w');
+    margin-bottom: 75px;
+}
+
+.mission-text {
+    flex-wrap: wrap;
+    width: 1200px;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.food-boxes {
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 75px;
+}
+
+.fimage {
+    max-height: 200px;
+    max-width: 300px;
+    padding: 0 15px;
+    margin-bottom: -10px;
+    margin: 10px;
+}
+
+#locations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    background-repeat: no-repeat;
+    max-height: 600px;
+    margin: 0 auto;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1wohow5*_ga*MTMzNTYzMjY2NC4xNzAyMTg1MjA5*_ga_3LRZM6TM9L*MTcxMTMxODQwNi4yNi4xLjE3MTEzMTg0MTQuNTIuMC4w');
+    
+}
+
+.location-container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%;
+    margin: 60px 60px 150px 60px;
+}
+
+.locations-header {
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.location-box {
+    background-color: black;
+    width: 300px;
+    opacity: 1;
+    margin: 15px 20px 20px 20px;
+    line-height: 40px;
+}
+
+footer {
+    height: 230px;
+    line-height: 40px;
+}
+
+.copyright {
+    text-align: left;
+    left: 20px;
+}
